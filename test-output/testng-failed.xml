@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="uname" value="standard_user"/>
+  <parameter name="pass" value="secret_sauce"/>
+  <listeners>
+    <listener class-name="saucelab.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="saucelab.Login">
+        <methods>
+          <include name="launch"/>
+          <include name="tc1nLogin"/>
+          <include name="logout"/>
+          <include name="tc2pLogin"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- saucelab.Login -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="saucelab.ProductCart">
+        <methods>
+          <include name="tc4VerifyProductDetails"/>
+          <include name="tc8VerifyPriceHightoLow"/>
+          <include name="tc5VerifySortAtoZ"/>
+          <include name="login"/>
+          <include name="tc7VerifyPriceLowtoHigh"/>
+          <include name="initialize"/>
+          <include name="tc3VerifyProductlist"/>
+          <include name="tc6VerifySortZtoA"/>
+        </methods>
+      </class> <!-- saucelab.ProductCart -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="saucelab.CartTest">
+        <methods>
+          <include name="tc13CheckoutwithMultipleProducts"/>
+          <include name="tc14CancelCheckout"/>
+          <include name="login"/>
+          <include name="tc12validatecheckoutcredentials"/>
+          <include name="tc09VerifyAddtoCartandRemovecart"/>
+          <include name="verify"/>
+          <include name="tc10ValidatingCartpage"/>
+          <include name="tc11CheckoutcartwithSingleItem"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- saucelab.CartTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->

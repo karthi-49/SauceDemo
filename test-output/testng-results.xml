@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92934" started-at="2021-07-13T04:11:03Z" finished-at="2021-07-13T04:12:36Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="34266" started-at="2021-07-13T04:11:03Z" finished-at="2021-07-13T04:11:37Z">
+      <class name="saucelab.Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:saucelab.Login@49e5f737]" name="initialize" is-config="true" duration-ms="11121" started-at="2021-07-13T04:11:03Z" finished-at="2021-07-13T04:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="4739" started-at="2021-07-13T04:11:14Z" finished-at="2021-07-13T04:11:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc1nLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc1nLogin" duration-ms="4719" started-at="2021-07-13T04:11:19Z" data-provider="negative" finished-at="2021-07-13T04:11:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secrsauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1nLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="579" started-at="2021-07-13T04:11:24Z" finished-at="2021-07-13T04:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc1nLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc1nLogin" duration-ms="435" started-at="2021-07-13T04:11:24Z" data-provider="negative" finished-at="2021-07-13T04:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1nLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="254" started-at="2021-07-13T04:11:25Z" finished-at="2021-07-13T04:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc1nLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc1nLogin" duration-ms="377" started-at="2021-07-13T04:11:25Z" data-provider="negative" finished-at="2021-07-13T04:11:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_se]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1nLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="63" started-at="2021-07-13T04:11:25Z" finished-at="2021-07-13T04:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc1nLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc1nLogin" duration-ms="308" started-at="2021-07-13T04:11:26Z" data-provider="negative" finished-at="2021-07-13T04:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1nLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="76" started-at="2021-07-13T04:11:26Z" finished-at="2021-07-13T04:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc1nLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc1nLogin" duration-ms="358" started-at="2021-07-13T04:11:26Z" data-provider="negative" finished-at="2021-07-13T04:11:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peershf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secsauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1nLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="71" started-at="2021-07-13T04:11:26Z" finished-at="2021-07-13T04:11:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc2pLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc2pLogin" duration-ms="2079" started-at="2021-07-13T04:11:27Z" data-provider="positive" finished-at="2021-07-13T04:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2pLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="51" started-at="2021-07-13T04:11:29Z" finished-at="2021-07-13T04:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc2pLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc2pLogin" duration-ms="494" started-at="2021-07-13T04:11:29Z" data-provider="positive" finished-at="2021-07-13T04:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2pLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="113" started-at="2021-07-13T04:11:29Z" finished-at="2021-07-13T04:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc2pLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc2pLogin" duration-ms="373" started-at="2021-07-13T04:11:29Z" data-provider="positive" finished-at="2021-07-13T04:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2pLogin -->
+        <test-method status="PASS" signature="launch()[pri:0, instance:saucelab.Login@49e5f737]" name="launch" is-config="true" duration-ms="252" started-at="2021-07-13T04:11:30Z" finished-at="2021-07-13T04:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc2pLogin(java.lang.String, java.lang.String)[pri:0, instance:saucelab.Login@49e5f737]" name="tc2pLogin" duration-ms="5526" started-at="2021-07-13T04:11:30Z" data-provider="positive" finished-at="2021-07-13T04:11:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2pLogin -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:saucelab.Login@49e5f737]" name="logout" is-config="true" duration-ms="1844" started-at="2021-07-13T04:11:35Z" finished-at="2021-07-13T04:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- saucelab.Login -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="21559" started-at="2021-07-13T04:11:41Z" finished-at="2021-07-13T04:12:02Z">
+      <class name="saucelab.ProductCart">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="login" is-config="true" duration-ms="16496" started-at="2021-07-13T04:11:41Z" finished-at="2021-07-13T04:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="initialize" is-config="true" duration-ms="804" started-at="2021-07-13T04:11:57Z" finished-at="2021-07-13T04:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tc3VerifyProductlist()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="tc3VerifyProductlist" duration-ms="234" started-at="2021-07-13T04:11:58Z" finished-at="2021-07-13T04:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3VerifyProductlist -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="initialize" is-config="true" duration-ms="202" started-at="2021-07-13T04:11:58Z" finished-at="2021-07-13T04:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tc4VerifyProductDetails()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="tc4VerifyProductDetails" duration-ms="2259" started-at="2021-07-13T04:11:59Z" finished-at="2021-07-13T04:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4VerifyProductDetails -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="initialize" is-config="true" duration-ms="158" started-at="2021-07-13T04:12:01Z" finished-at="2021-07-13T04:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tc5VerifySortAtoZ()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="tc5VerifySortAtoZ" duration-ms="54" started-at="2021-07-13T04:12:01Z" finished-at="2021-07-13T04:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5VerifySortAtoZ -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="initialize" is-config="true" duration-ms="144" started-at="2021-07-13T04:12:01Z" finished-at="2021-07-13T04:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tc6VerifySortZtoA()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="tc6VerifySortZtoA" duration-ms="461" started-at="2021-07-13T04:12:01Z" finished-at="2021-07-13T04:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6VerifySortZtoA -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="initialize" is-config="true" duration-ms="143" started-at="2021-07-13T04:12:02Z" finished-at="2021-07-13T04:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tc7VerifyPriceLowtoHigh()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="tc7VerifyPriceLowtoHigh" duration-ms="239" started-at="2021-07-13T04:12:02Z" finished-at="2021-07-13T04:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7VerifyPriceLowtoHigh -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="initialize" is-config="true" duration-ms="141" started-at="2021-07-13T04:12:02Z" finished-at="2021-07-13T04:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tc8VerifyPriceHightoLow()[pri:0, instance:saucelab.ProductCart@313b2ea6]" name="tc8VerifyPriceHightoLow" duration-ms="210" started-at="2021-07-13T04:12:02Z" finished-at="2021-07-13T04:12:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8VerifyPriceHightoLow -->
+      </class> <!-- saucelab.ProductCart -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="33267" started-at="2021-07-13T04:12:03Z" finished-at="2021-07-13T04:12:36Z">
+      <class name="saucelab.CartTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="login" is-config="true" duration-ms="15787" started-at="2021-07-13T04:12:03Z" finished-at="2021-07-13T04:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="124" started-at="2021-07-13T04:12:18Z" finished-at="2021-07-13T04:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc09VerifyAddtoCartandRemovecart()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc09VerifyAddtoCartandRemovecart" duration-ms="1639" started-at="2021-07-13T04:12:19Z" finished-at="2021-07-13T04:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09VerifyAddtoCartandRemovecart -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="0" started-at="2021-07-13T04:12:20Z" finished-at="2021-07-13T04:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc10ValidatingCartpage()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc10ValidatingCartpage" duration-ms="1404" started-at="2021-07-13T04:12:20Z" finished-at="2021-07-13T04:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10ValidatingCartpage -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="0" started-at="2021-07-13T04:12:22Z" finished-at="2021-07-13T04:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc11CheckoutcartwithSingleItem()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc11CheckoutcartwithSingleItem" duration-ms="820" started-at="2021-07-13T04:12:22Z" finished-at="2021-07-13T04:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11CheckoutcartwithSingleItem -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="0" started-at="2021-07-13T04:12:22Z" finished-at="2021-07-13T04:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc12validatecheckoutcredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc12validatecheckoutcredentials" duration-ms="1756" started-at="2021-07-13T04:12:22Z" data-provider="data" finished-at="2021-07-13T04:12:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12validatecheckoutcredentials -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="1" started-at="2021-07-13T04:12:24Z" finished-at="2021-07-13T04:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc12validatecheckoutcredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc12validatecheckoutcredentials" duration-ms="1163" started-at="2021-07-13T04:12:24Z" data-provider="data" finished-at="2021-07-13T04:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12validatecheckoutcredentials -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="0" started-at="2021-07-13T04:12:25Z" finished-at="2021-07-13T04:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc12validatecheckoutcredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc12validatecheckoutcredentials" duration-ms="535" started-at="2021-07-13T04:12:25Z" data-provider="data" finished-at="2021-07-13T04:12:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12validatecheckoutcredentials -->
+        <test-method status="PASS" signature="tc12validatecheckoutcredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc12validatecheckoutcredentials" duration-ms="805" started-at="2021-07-13T04:12:26Z" data-provider="data" finished-at="2021-07-13T04:12:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12validatecheckoutcredentials -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="0" started-at="2021-07-13T04:12:26Z" finished-at="2021-07-13T04:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="1" started-at="2021-07-13T04:12:27Z" finished-at="2021-07-13T04:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc12validatecheckoutcredentials(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc12validatecheckoutcredentials" duration-ms="4165" started-at="2021-07-13T04:12:27Z" data-provider="data" finished-at="2021-07-13T04:12:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12validatecheckoutcredentials -->
+        <test-method status="PASS" signature="tc13CheckoutwithMultipleProducts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc13CheckoutwithMultipleProducts" duration-ms="2633" started-at="2021-07-13T04:12:31Z" data-provider="data2" finished-at="2021-07-13T04:12:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc13CheckoutwithMultipleProducts -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="0" started-at="2021-07-13T04:12:31Z" finished-at="2021-07-13T04:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="verify()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="verify" is-config="true" duration-ms="1" started-at="2021-07-13T04:12:34Z" finished-at="2021-07-13T04:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify -->
+        <test-method status="PASS" signature="tc14CancelCheckout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="tc14CancelCheckout" duration-ms="2201" started-at="2021-07-13T04:12:34Z" data-provider="data2" finished-at="2021-07-13T04:12:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adams]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc14CancelCheckout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:saucelab.CartTest@6a03bcb1]" name="logout" is-config="true" duration-ms="200" started-at="2021-07-13T04:12:36Z" finished-at="2021-07-13T04:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- saucelab.CartTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

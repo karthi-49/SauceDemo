@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="saucelab.CartTest">
+        <methods>
+          <include name="tc14cancelcheckout"/>
+          <include name="login"/>
+          <include name="tc12validatecheckoutcredentials"/>
+          <include name="tc10validatingcartpage"/>
+          <include name="verify"/>
+          <include name="tc13validatecheckoutwithmultipleproducts"/>
+          <include name="logout"/>
+          <include name="tc11checkoutcartwithsingleitem"/>
+        </methods>
+      </class> <!-- saucelab.CartTest -->
+      <class name="saucelab.ProductCart">
+        <methods>
+          <include name="tc3verifyproductlist"/>
+          <include name="tc5verifysortAtoZ"/>
+          <include name="tc6verifysortZtoA"/>
+          <include name="tc8verifypricehightolow"/>
+          <include name="login"/>
+          <include name="tc7verifypricelowtohigh"/>
+          <include name="initialize"/>
+          <include name="tc4verifyproductDetails"/>
+        </methods>
+      </class> <!-- saucelab.ProductCart -->
+      <class name="saucelab.Login">
+        <methods>
+          <include name="tc2plogin"/>
+          <include name="launch"/>
+          <include name="tc1nlogin"/>
+          <include name="logout"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- saucelab.Login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
